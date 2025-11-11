@@ -1,4 +1,5 @@
 ## EvoGrad: Evolved Learning Rules Beyond Backprop
+Full code with dataset, already evolved learning rules and raw results from the paper: drive.google.com/drive/folders/1u9h13qA0I6cK9RQ8_brXQ3UUO_K441Ti?usp=sharing
 
 EvoGrad explores learned/evolved learning rules that augment or replace standard backpropagation + Adam. The core idea is to attach small neural modules to layers and the loss that observe local statistics and gradients, generate second-order-like “grad2” signals, and propose parameter updates. These updates can be used alone (Evolved-only) or combined with Adam (Evolved+Adam, hybrid).
 
